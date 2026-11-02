@@ -1,0 +1,25 @@
+{
+  "best_model": "RandomForest (optimized)",
+  "test_size": 241,
+  "class_1_test": 38,
+  "class_1_test_pct": 15.77,
+  "metrics": {
+    "accuracy": 0.8838,
+    "precision": 0.8571,
+    "recall": 0.3158,
+    "f1": 0.4615,
+    "roc_auc": 0.842
+  },
+  "confusion_matrix": {
+    "TN": 201,
+    "FP": 2,
+    "FN": 26,
+    "TP": 12
+  },
+  "best_params": {
+    "class_weight": "balanced",
+    "max_depth": 10,
+    "min_samples_split": 5,
+    "n_estimators": 200
+  }
+}
